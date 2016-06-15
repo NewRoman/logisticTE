@@ -912,18 +912,25 @@ footer {
   height: 340px;
 }
 main {
-  background: url('/img/page-bg.png') no-repeat center -46px;
+  background: url('/img/page-bg.png') no-repeat center -96px;
+}
+main .wrap-content {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
 }
 main aside.star {
   margin-top: 45px;
 }
 main aside.star span {
   display: inline-block;
-  padding-right: 100px;
-  width: 220px;
+  height: 50px;
+  padding-right: 65px;
+  padding-top: 10px;
+  width: 170px;
   background: url('/img/star.png') no-repeat 100%;
+  background-size: auto 100%;
   cursor: pointer;
-  line-height: 6;
   color: #FFF;
   font-size: 20px;
 }
@@ -931,7 +938,7 @@ main aside.star span.active {
   background: url('/img/star-active.png') no-repeat 100%;
 }
 main .logo {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 70px;
   font-size: 1px;
   line-height: 0;
@@ -944,7 +951,7 @@ main .logo img {
 main .slogan {
   width: 320px;
   color: #FFF;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 1.1;
 }
@@ -953,8 +960,9 @@ main .slogan span {
   color: #8F9DAD;
 }
 main aside.contact {
-  margin-top: 90px;
-  margin-bottom: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 main aside.contact .contacts {
   display: inline-block;
@@ -983,7 +991,7 @@ main aside.contact .map {
 }
 @media screen and (max-width: 1080px) {
   main {
-    background: url('/img/page-bg.png') no-repeat -408px -46px;
+    background: url('/img/page-bg.png') no-repeat -408px -96px;
   }
   main .logo img {
     max-width: 100%;
@@ -1036,6 +1044,13 @@ main aside.contact .map {
   main aside.contact .contacts p span.mail,
   main aside.contact .contacts p span.phone {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  main aside.contact {
+    position: relative;
+    margin-top: 115px;
+    float: right;
   }
 }
 @media screen and (max-width: 450px) {

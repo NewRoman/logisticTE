@@ -16,50 +16,54 @@
 
         <main>
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <aside class="star pull-right">
-                            <span class="star" data-added-text="Вы запомнили"> запомнить</span>
-                        </aside>
+                <div class="wrap-content">
+                    
+                
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <aside class="star pull-right">
+                                <span class="star" data-added-text="Вы запомнили"> запомнить</span>
+                            </aside>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1 class="logo">
-                            Logistics troubleshooter
-                            <img src="/img/logo.png" alt="">
-                        </h1>
-                        <h2 class="slogan">
-                            <span>
-                                Логистические 
-                                решения 
-                            </span>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1 class="logo">
+                                Logistics troubleshooter
+                                <img src="/img/logo.png" alt="">
+                            </h1>
+                            <h2 class="slogan">
+                                <span>
+                                    Логистические 
+                                    решения 
+                                </span>
 
-                            для Восточной 
-                            Европы
-                        </h2>
+                                для Восточной 
+                                Европы
+                            </h2>
+                        </div>
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12">
-                        <aside class="contact pull-right">
-                            <div class="contacts">
-                                <p>NO. 9 TRIQ IL-LUMIJA  SAN GWANN, Malta
-                                    <span class="adress">Company ID C 75738</span>
-                                </p>
-                                <p>
-                                    Phone:&nbsp;&nbsp;&nbsp;
-                                    <span class="phone">+88 999 888 777 888</span>
-                                </p>
-                                <p>
-                                    E-mail:&nbsp;&nbsp;&nbsp;
-                                    <span class="mail">LTshooter@gmal.com</span>
-                                </p>
-                            </div>
-                            <div class="map"></div>
-                        </aside>
-                    </div>
+    <!-- 
+                    <div class="row">
+                        <div class="col-sm-12"> -->
+                            <aside class="contact">
+                                <div class="contacts">
+                                    <p>NO. 9 TRIQ IL-LUMIJA  SAN GWANN, Malta
+                                        <span class="adress">Company ID C 75738</span>
+                                    </p>
+                                    <p>
+                                        Phone:&nbsp;&nbsp;&nbsp;
+                                        <span class="phone">+88 999 888 777 888</span>
+                                    </p>
+                                    <p>
+                                        E-mail:&nbsp;&nbsp;&nbsp;
+                                        <span class="mail">LTshooter@gmal.com</span>
+                                    </p>
+                                </div>
+                                <div class="map"></div>
+                            </aside>
+                       <!--  </div>
+                    </div> -->
                 </div>
             </div>
         </main>
